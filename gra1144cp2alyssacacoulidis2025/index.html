@@ -3,35 +3,61 @@
 <head>
 <meta charset="UTF-8">
 <title>Blackened Mahi Mahi Recipe | Applying CSS Styling | Alyssa Cacoulidis</title>
-</head> <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
-	<style type="text/css">
-	body { 
-		padding: 0;
-		margin: 0;
-		background-color: #ccc;
-	.bona-nova-sc-regular {
-  font-family: "Bona Nova SC", serif;
-  font-weight: 400;
-  font-style: normal;
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+body {
+    padding: 20px;
+    margin: 20px;
+background-image: url("lobster-background.png");
+	background-size:50%;
+    font-family: "Bona Nova", serif;
+    font-weight: 400;
+    font-style: normal;
 }
-		}
-	
-	wrapper {
-		width: 1366px;
-		margin: 0 auto;
+wrapper {
+    width: 1000px;
+	padding: 20px;
+    margin: 0 auto;
+    display: block;
+	background-color: rgba(255,255,255,.9);
+}
+	.logo,h1{
+		display:inline-block;
+		vertical-align:middle;
+		padding-right: 10px;
+	}
+	header{
+		text-align:center;
+	}
+	.banner{
 		display: block;
-		background-color: #fff
-		}
-	</style>
+		margin: auto;
+		border-radius: 20px;
+
+	}
+section {
+    width: 50%;
+    display: inline-block;
+    margin-right: -4px;
+	vertical-align: top;
+}
+	h2{
+		text-align: center;
+	}
+	p{
+		padding: 0 50px;
+	}
+</style>
+</head>
 
 <body>
 <wrapper>
-  <header> <img src= "joes-logo.jpg"/>
+  <header> <img src="joes-logo.jpg" class="logo" />
     <h1> Joe&rsquo;s Seafood Grill</h1>
   </header>
-  <main> <img src="blackened-mahi-mahi-picture.jpg" width="600" height="400" alt=""/>
+  <main> <img src="blackened-mahi-mahi-picture.jpg" width="600" height="400" alt="" class="banner" />
     <h2> Blackened Mahi Mahi</h2>
     <p>My Blackened Mahi Mahi recipe features a fresh caught fillet, coated in a bold blend of Cajun spices, seared to crispy perfection. The high heat locks in the fish&rsquo;s tender, flaky texture while creating a flavorful, smoky crust. With a kick of heat from the spices and a rich, savory finish, this dish is sure to impress anyone craving a world of flavorful seafood!</p>
     <section>
