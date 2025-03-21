@@ -21,7 +21,6 @@ wrapper {
     width: 1366px;
     margin: auto;
     display: block;
-    background-color: rgba(255,255,255,1.00);
 }
 section {
     height: 1024px;
@@ -44,13 +43,14 @@ nav ul li {
 }
 nav ul li:hover {
     background-color: #8C0F0F;
+    border-top-left-radius: 0px;
 }
 #home {
     background-image: url(outside-the-parker.jpg);
 }
 .calendar {
     display: block;
-	
+    padding-left: 100px;
 }
 #media {
     background-image: url(stage-picture.jpg);
@@ -66,6 +66,7 @@ h1 {
     font-style: normal;
     text-align: center;
     padding-top: 5px;
+    padding-bottom: 10px;
     background-color: rgba(128,6,6,1.00);
     color: rgba(255,255,255,1.00);
 }
@@ -85,9 +86,10 @@ body {
 }
 footer {
     background-color: rgba(255,198,199,1.00);
-	font-family: "Faculty Glyphic", sans-serif;
+    font-family: "Faculty Glyphic", sans-serif;
     font-weight: 400;
     font-style: normal;
+    padding: 10px;
 }
 .navlistitem {
     float: left;
@@ -95,25 +97,50 @@ footer {
     font-weight: 400;
     font-style: normal;
 }
-nav {
-}
 li {
     color: rgba(255,255,255,1.00);
 }
 .parkerplaque {
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-left: 600px;
 }
 .parkerlogo {
     float: right;
 }
 .map {
-    align-content: center
+    padding-top: 50px;
+    padding-left: 520px;
 }
+.introvideo {
+    padding: 160px;
+    padding-left: 550px;
+}
+.heading-swirls {
+    padding-left: 200px;
+    padding-bottom: 10px;
+}
+.parkerparagraph {
+   border:solid;
+padding: 10px;
+	margin-left: 400px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+    text-align: center;
+	 width: 600px;
+}
+.mediatext, .locationtext {
+    color: #FFFFFF;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-top: 20px;
+	}
+	
 </style>
 </head>
 
@@ -121,7 +148,7 @@ li {
 <wrapper>
   <header>
     <h1 class="headingtext">Welcome to The Parker</h1>
-  </header>
+    <img class="heading-swirls" src="heading-swirls.png" width="950" height="170" alt=""/> </header>
   <section id="home">
     <nav>
       <ul class="navlist">
@@ -134,8 +161,11 @@ li {
         </a>
       </ul>
       <img class="parkerlogo" src="the-parker-logo.png" width="270" height="150" alt=""/></nav>
-    <img src="playhouse-plaque.jpg" width="764" height="500" alt=""/> </section>
-  <iframe src="https://calendar.google.com/calendar/embed?src=5749d34d02c11a66a66dccaad26f9c2c8ac23f210fdbf64259e04c7d6d9c28fc%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <main>
+      <iframe src="https://calendar.google.com/calendar/embed?src=5749d34d02c11a66a66dccaad26f9c2c8ac23f210fdbf64259e04c7d6d9c28fc%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+      <p class="parkerparagraph">The Parker Playhouse, located at 707 NE 8th Street in Fort Lauderdale, is a cherished cultural landmark in southern Florida. Established by Dr. Louis Parker, it first opened its doors on February 6, 1967, and has since become a cornerstone of the community. This neo-classical theater, managed by the Broward Center for the Performing Arts, hosts a variety of performances including concerts, comedy shows, theater productions, and dance events. With a seating capacity of 1,147, it offers an intimate setting with no obstructed views, making it a popular venue for both local and touring acts. The Parker Playhouse recently underwent significant renovations, reopening in September 2021 with upgraded facilities and preserved artwork, further solidifying its role in enriching the cultural landscape of Fort Lauderdale.</p>
+    </main>
+  </section>
   <section id="media">
     <nav>
       <ul class="navlist">
@@ -148,7 +178,10 @@ li {
         </a>
       </ul>
     </nav>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/6gdQY3e8dTA?si=DYIIUvhNAZYV55CR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <main>
+      <h1 class="mediatext">Media</h1>
+      <iframe class="introvideo" width="560" height="315" src="https://www.youtube.com/embed/6gdQY3e8dTA?si=DYIIUvhNAZYV55CR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </main>
   </section>
   <section id="location">
     <nav>
@@ -162,7 +195,13 @@ li {
         </a>
       </ul>
     </nav>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.9144273129027!2d-80.1387861885858!3d26.13433297702422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d901aea34e8d99%3A0x237f7964ddce1a99!2sThe%20Parker!5e0!3m2!1sen!2sus!4v1740766734195!5m2!1sen!2sus" width="600" height="450" class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <main>
+      <section class="locationsection">
+        <h1 class="locationtext">Location</h1>
+        <img class="parkerplaque" src="playhouse-plaque.jpg" width="450" height="300" alt=""/>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.9144273129027!2d-80.1387861885858!3d26.13433297702422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d901aea34e8d99%3A0x237f7964ddce1a99!2sThe%20Parker!5e0!3m2!1sen!2sus!4v1740766734195!5m2!1sen!2sus" width="600" height="450" class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+    </main>
   </section>
   <footer>
     <p>© 2025, Alyssa Cacoulidis. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
