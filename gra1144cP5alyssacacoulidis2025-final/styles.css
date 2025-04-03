@@ -1,0 +1,325 @@
+@charset "UTF-8";
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #FEEF9B
+}
+wrapper {
+    width: 1366px;
+    margin: auto;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.50);
+    padding-top: 0px;
+}
+ul a li {
+    padding: 15px 25px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 25px;
+}
+nav {
+    background-color: rgba(255,255,255,0.70);
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border: dotted;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 41px;
+}
+nav ul a {
+    color: black;
+}
+ul a li:hover {
+    background-color: rgba(255, 250, 132, 1.00);
+}.newstext:hover{
+    background-color: rgba(202,3,185,0.70);
+}
+.gallerytext:hover{
+    background-color: rgba(132,2,193,.6);
+}
+.musictext:hover{
+    background-color: rgba(149,205,136,1.00);
+}
+.videostext:hover{
+    background-color: rgba(138,153,255,.8);	
+}
+.tourtext:hover{
+    background-color: rgba(255,189,73,1.00);
+}
+.emailtext:hover{
+    background-color: rgba(190,0,3,0.8);
+}
+.merchtext:hover{
+    background-color: rgba(50,146,10,1.00);
+}
+.blogstext:hover{
+    background-color: rgba(79,83,234,1.00);
+}
+.privacytext:hover{
+    background-color: rgba(216,194,7,1.00);
+}
+.lawrence-logo {
+    float: left;
+    height: auto;
+    width: 113px;
+    padding-left: 92px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-top: 85px;
+    margin-top: -40px;
+}
+h1 {
+    padding-top: 0px;
+    font-size: 77px;
+    font-family: "Londrina Shadow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    padding-left: 0px;
+    margin-right: 0px;
+}
+.tourparagraph {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 18px;
+}
+footer {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    float: left;
+    font-family: "Grandstander", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.musictext {
+}
+header {
+    margin-top: 26px;
+    margin-bottom: 38px;
+    padding-top: 25px;
+}
+h2 {
+    text-align: center;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+}
+.tour-image{
+    padding-left: 73px;
+}
+.albumcover {
+    vertical-align: middle;
+    padding-left: 335px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.abovealbumtext{
+    text-align: center;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+    border-radius: 10px;
+    background-color: #F3C430;
+    padding-left: 0px;
+    margin-left: 156px;
+    margin-right: 183px;
+}
+.underalbumtext{
+    text-align: center;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: #F3C430;
+    padding-left: 0px;
+    margin-left: 469px;
+    margin-right: 456px;
+}
+.backtotop{
+    text-align: center;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.musicsection{
+    padding-bottom: 30px;
+    padding-left: 180px;
+}
+.videosection {
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+    margin-left: 120px;
+}
+.familybusiness{
+    padding-left: 0px;
+    padding-right: 15px;
+    margin-left: -31px;
+    padding-bottom: 10px;
+}
+.hoteltv {
+    padding-left: 45px;
+    padding-bottom: 10px;	
+}
+.livingroom {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    margin-left: -31px;
+    padding-right: 15px;
+}
+.breakfast{
+	padding-top: 25px;
+    padding-bottom: 25px;
+	padding-left: 45px;
+}
+.privacystatement {
+    word-spacing: normal;
+    white-space: pre-line;
+}
+.lawrence1 {
+    padding: 20px;
+    background-color: rgba(202,3,185,0.70);
+    margin-left: 40px;
+}
+.lawrence2 {
+    padding-top: 10px;
+    margin-top: 6px;
+    background-color: rgba(149,205,136,1.00);
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 350px;
+}
+.lawrence3 {
+    margin-left: 20px;
+    margin-right: 35px;
+    margin-bottom: 196px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    background-color: rgba(138,153,255,.8);
+}
+.lawrence4 {
+    margin-top: 30px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    background-color: rgba(190,0,3,0.8);
+}
+.lawrence5 {
+    margin-left: 35px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(255,189,73,1.00);
+    margin-bottom: 249px;
+    margin-top: -84px;
+}
+.lawrence6 {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 50px;
+    margin-top: 15px;
+    background-color: rgba(79,83,234,1.00);
+    margin-bottom: 75px;
+}
+.lawrence7 {
+    margin-left: 31px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(216,194,7,1.00);
+    margin-bottom: 28px;
+}
+.subscribebox{
+    padding-top: 39px;
+    padding-right: 0px;
+    padding-left: 494px;
+    padding-bottom: 115px;
+}
+.subscribetext{
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.erastourarticle{
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.radiocityarticle{
+    padding-left: 10px;
+    margin-bottom: 112px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.confidentinsecurearticle{
+    margin-top: 15px;
+    margin-left: 350px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+h3{
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 40px;
+}
+.redditsection{
+    padding-left: 461px;
+    margin-bottom: 0px;
+    padding-bottom: 25px;
+}
+.whiteandbluetee{
+    margin-left: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.familybiztee{
+    margin-left: 45px;
+    padding-left: 21px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.blackhoodie{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    margin-left: 93px;
+    margin-right: 43px;
+    padding-top: 40px;
+}
+.tourtee{
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
