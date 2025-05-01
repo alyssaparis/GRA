@@ -12,7 +12,7 @@ body {
     background-position: 0% 100px;
 }
 header {
-    height: 100px;
+    height: 125px;
     background-color: #F2865E;
     background-size: cover;
 }
@@ -39,18 +39,25 @@ footer {
     height: 50px;
 }
 #Tabs1 li {
-    text-align: center;
     background-image: none;
     border: none;
     background-color: rgba(255,255,255,0.75);
-    margin: 0 0 0 12px;
-    border-radius: 10px 10px 0px 0px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 24px;
+    margin-bottom: 0;
+    border-radius: 10px;
+    padding-left: 0px;
+    text-align: center;
 }
 #Tabs1 div {
-    margin: 0 10px;
+    margin-right: 10px;
+    margin-bottom: 0;
     background-color: rgba(255,255,255,0.75);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 22px;
+    margin-top: 20px;
 }
 #Tabs1 {
     background-image: none;
@@ -65,16 +72,139 @@ footer {
 #Tabs1 input {
     border-radius: 6px;
     padding: 6px;
+    width: 150px;
 }
 .submit {
     background-color: #F2865E;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 6px;
 }
-.numberofpeople {
-    padding-left: 5px;
+.logotext .logo {
 }
 label {
 }
+#Tabs1 li:hover {
+    background-color: rgba(8,35,218,0.40);
+}
+#tabs-1  {
+    background-color: rgba(255,255,255,1.00);
+}
+.ui-tabs-nav.ui-helper-clearfix.ui-widget-header .ui-state-active a {
+}
 .select {
+}
+#textfield {
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 7px;
+    padding-bottom: 0px;
+    margin-right: 0px;
+    width: 153px;
+    margin-left: -3px;
+}
+#textfield2{
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 2px;
+	}
+#tabs-1 {
+	font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+h2 {
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 2px;
+    word-spacing: 5px;
+    margin-bottom: -5px;
+}
+.logo {
+    margin-left: 442px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.logotext {
+    padding-bottom: 0px;
+    padding-top: 12px;
+}
+input {
+    margin-left: 30px;
+    width: 0px;
+}
+#Tabs1 #tabs-2 {
+}
+.ui-tabs-nav.ui-helper-clearfix.ui-widget-header .ui-state-active a {
+}
+.ui-tabs-nav.ui-helper-clearfix.ui-widget-header .ui-state-default.ui-corner-top a {
+    font-family: "Twinkle Star", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0,0,0,1.00);
+}
+.ui-tabs-nav.ui-helper-clearfix.ui-widget-header .ui-state-default.ui-corner-top a {
+}
+.ui-tabs-nav.ui-helper-clearfix.ui-widget-header .ui-state-default.ui-corner-top a {
+}
+.ui-tabs-nav.ui-helper-clearfix.ui-widget-header .ui-state-default.ui-corner-top a {
+}
+.ui-tabs-nav.ui-helper-clearfix.ui-widget-header .ui-state-active a {
+}
+.numberofpeople{
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 19px;
+	}
+#date2{
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 4px;
+    margin-right: 1px;
+	}
+#date{
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 1px;
+    margin-right: 9px;
+	}
+#option{
+	font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+	}
+#Tabs1 #tabs-1 .childrenselector{
+		font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+	}
+	#Tabs1 #tabs-1 .adultsselector{
+		font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;	
+	}
+#Tabs1 #tabs-1 .submit{
+		font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+	}
+.flyingfromsection   {
+    display: inline-block;
+}
+#Tabs1 #tabs-1 .flyingtosection {
+    display: inline-block;
+    margin-left: 2px;
+}
+#Tabs1 #tabs-1 label {
+    margin-left: 0px;
 }
 </style>
 <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
@@ -82,12 +212,19 @@ label {
 <link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
 <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
 <script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Delius&family=Yuji+Mai&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Meow+Script&family=Shizuru&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Meow+Script&family=Schoolbell&family=Shizuru&family=Twinkle+Star&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<header></header>
+<header>
+  <section class="logotext"><img src="barefoot-travel-logo.png" alt="" width="170" height="100" class="logo"><img src="barefoot-text.png" alt="" width="275" height="100"></section>
+</header>
 <wrapper>
-<div id="Tabs1">
+  <div id="Tabs1">
   <ul>
     <li><a href="#tabs-1"><img src="airplane-icon.png" alt="" width="780" height="742" class="icons"><br>
     Flights</a></li>
@@ -101,24 +238,39 @@ label {
     Cruises</a></li>
   </ul>
   <div id="tabs-1">
-<input name="textfield" type="text" id="textfield" placeholder="Leaving From">
-<input name="textfield2" type="text" id="textfield2" placeholder="Going To">
+    <h2>Where to next?&nbsp;</h2>
+	  <section class="flyingfromsection"><p>Flying From</p>
+<input name="textfield" type="text" id="textfield" placeholder="City or Airport"></section>
+	  <section class="flyingtosection"><p>Flying To</p>
+<input name="textfield2" type="text" id="textfield2" placeholder="City or Airport"></section>
     <label for="date">Date:</label>
     <input type="date" name="date" id="date">
     <label for="date2">Date:</label>
     <input type="date" name="date2" id="date2">
-    <label for="">Number of Travelers:&nbsp; &nbsp; &nbsp;</label>
-    <select class="numberofpeople">
-      <option value="1">1 person</option>
-      <option value="2">2 people</option>
-      <option value="3">3 people</option>
-      <option value="4">4 people</option>
-      <option value="5+">5+ persons</option>
+    <label for="adultsselector">Adults (18+)&nbsp; &nbsp; &nbsp;</label>
+    <select class="adultsselector">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5+">5</option>
     </select>
-<input name="submit" type="submit" class="submit" value="Submit">
+	  <label for="childrenselector">Children (0-17)&nbsp; &nbsp; &nbsp;</label>
+    <select class="childrenselector">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5+">5+</option>
+    </select>
+<input name="submit" type="submit" class="submit" value="Search">
   </div>
   <div id="tabs-2">
-    <p>Content 2</p>
+    <ul>
+      <li>Content 2</li>
+		<li>Content 2</li>
+		<li>Content 2</li>
+    </ul>
   </div>
   <div id="tabs-3">
     <p>Content 3</p>
