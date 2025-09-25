@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My First Responsive Web Page</title>
+<link rel="stylesheet" href="https://use.typekit.net/gkc7izj.css">
+<link rel="stylesheet" href="https://use.typekit.net/gkc7izj.css">
+<style type="text/css">
+body {
+    margin: 0;
+    background-color: lightpink;
+}
+wrapper {
+    width: 90%;
+    margin: auto;
+    display: block;
+    background-color: white;
+    min-width: 500px;
+    max-width: 1350px;
+}
+section {
+    width: 80%;
+    margin: 0 auto 18px;
+    background-color: #FBE5FB;
+    height: 300px;
+}
+.dinnerparty {
+    height: 380px;
+    width: 560px;
+}
+.floralstamps {
+    width: 260px;
+    height: 280px;
+    margin-left: 150px;
+    margin-top: 0px;
+}
+.gardenstamps {
+    width: 260px;
+    height: 280px;
+    margin-left: 150px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+header {
+    background-color: #670A14;
+    color: #670A14;
+}
+.howtotext {
+    color: #FBE5FB;
+    text-align: center;
+    font-size: x-large;
+}
+@media (min-width:1000px){
+	body{
+    background-color: #670A14;
+}
+section {
+    width: 49%;
+    margin-top: 0;
+    margin-right: 0px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-top: 0px;
+}
+.banner {
+    width: 99%;
+    padding-left: 0px;
+    margin-left: 5px;
+
+}
+}
+	.howtotext{
+font-family: "cofo-raffine", sans-serif;
+font-weight: 500;
+font-style: normal;
+	}
+</style>
+</head>
+
+<body>
+<wrapper>
+	<header><p class="howtotext">How to Host a Dinner Party</p></header>
+  <section class="banner"><img src="dinnerparty.jpeg" alt="" width="1570" height="1047" class="dinnerparty"></section>
+  <section><p>set your theme</p><img src="gardenstamp.jpg" alt="" width="1200" height="866" class="gardenstamps"></section>
+  <section><p>make your guest list</p><img src="floralstamp.jpg" alt="" width="1168" height="1108" class="floralstamps"></section>
+  <section><p>create a menu</p><img src="gardenstamp.jpg" alt="" width="1200" height="866" class="gardenstamps"></section>
+	<section><p>organize a timeline for tasks</p><img src="gardenstamp.jpg" alt="" width="1200" height="866" class="gardenstamps"></section>
+	<section><p>mix fun drinks</p><img src="gardenstamp.jpg" alt="" width="1200" height="866" class="gardenstamps"></section>
+	<section><p>have a good time</p><img src="gardenstamp.jpg" alt="" width="1200" height="866" class="gardenstamps"></section>
+</wrapper>
+</body>
+</html>
