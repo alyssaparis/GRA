@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My First Practice Responsive Navigation | Elio Arteaga, 2025</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script type="text/javascript">
+  $(document).ready(
+    function() {
+      $('#icon').click (
+        function() {
+          $('#nav').show();
+          $('#icon').hide();
+          $('#x_icon').show();
+        }
+  );
+  $('#x_icon').click (
+    function() {
+          $('#nav').hide();
+          $('#icon').show();
+          $('#x_icon').hide();
+        }
+      );
+    }
+  );
+</script>
+<style type="text/css">
+body {
+    margin: 0;
+    background-color: lightgreen;
+}
+wrapper {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    display: block;
+    background-color: rgba(255,255,255,.5);
+}
+section {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: white;
+    height: 300px;
+}
+nav {
+    padding: 10px;
+    background-color: darkgreen;
+    display: none;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+ul a li {
+    padding: 10px;
+    list-style-type: none;
+}
+li:hover {
+    background-color: gold;
+    color: black;
+}
+nav ul a {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+#icon, #x_icon {
+    width: 50px;
+    height: 50px;
+}
+
+@media (min-width:1000px){
+main {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+section {
+    margin: 0 20px;
+    width: 30%;
+}
+ul a li {
+    display: inline-block;
+}
+#nav {
+    display: block;
+}
+#icon {
+    display: none;
+}
+}
+</style>
+</head>
+
+<body>
+<wrapper>
+  <header><img src="" alt="" class="logo" >
+    <h1>Elio&rsquo;s Gardening Services</h1>
+	<img id="icon" src="images2/menu.png" alt="Navigation icon. Click to expand navigation menu."/>
+<img id="x_icon" src="images2/x.png" alt="Exit out icon. Click to close navigation menu." style="display: none;" />
+    <nav id="nav">
+      <ul>
+        <a href="#services"><li>Services</li></a>
+        <a href="#products"><li>Products</li></a>
+        <a href="#contact"><li>Contact</li></a>
+      </ul>
+    </nav>
+  </header>
+<img src="" alt="" class="banner" >
+<main>
+  <section id="services">
+    <img src="" alt="" width="" height="">
+    <h2>Services</h2>
+    <p>This is the content for Layout P Tag</p>
+  </section>
+  <section id="products">
+    <img src="" alt="" width="" height="">
+    <h2>Products</h2>
+    <p>This is the content for Layout P Tag</p>
+  </section>
+  <section id="contact">
+    <img src="" alt="" width="" height="">
+    <h2>Contact Us</h2>
+    <p>This is the content for Layout P Tag</p>
+  </section>
+</main>
+<footer><p>&copy; 2025, Elio Arteaga
+This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</wrapper>
+</body>
+</html>
