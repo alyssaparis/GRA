@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>
+Drag and Drop Project | Alyssa Cacoulidis, 2025</title>
+<link rel="stylesheet" href="https://use.typekit.net/tgh0reu.css">
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+<style>
+body {
+    margin: 0;
+    background-color: #0D889C;
+    background-image: url(AdobeStock_183554524.jpeg);
+    background-size: cover;
+}
+wrapper {
+    width: 1366px;
+    margin: auto;
+    display: block;
+    background-color: rgba(255,255,255,0.20);
+}
+section {
+    width: 650px;
+    border: 1px solid black;
+    height: 125px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+section img {
+    height: 100%;
+    width: auto;
+}
+h1{
+    font-family: "times-new-roman", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding-top: 0px;
+    margin-top: 17px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    text-indent: 0px;
+    font-size: 82px;
+	}
+.plainbackground {
+    padding-left: 0px;
+    width: 1373px;
+    height: 301px;
+}
+.onlybellypicture {
+    margin-left: 163px;
+}
+.conrad {
+    margin-left: 1173px;
+    margin-bottom: -4px;
+    margin-top: -696px;
+}
+div {
+    margin-top: -719px;
+    padding-top: 0px;
+    margin-left: 197px;
+    padding-left: 0px;
+}
+aside {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+#drop2 {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+#drop4 {
+    padding-left: 0px;
+    margin-left: 781px;
+    width: 184px;
+    height: 552px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+</style>
+</head>
+
+<body>
+<wrapper>
+<header><h1>Who Should Belly End Up With?</h1></header>
+  <img src="onlybellypicture.png" alt="" width="1014" height="570" class="onlybellypicture">
+  <div id="drop2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+  <div id="drop4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<aside><img src="onlyjeremiah.png" alt="" width="175" height="310" class="jeremiah" id="drag1" draggable="true" ondragstart="drag(event)"></aside>
+	<aside><img src="onlyconrad.png" alt="" width="215" height="570" class="conrad" id="drag2" draggable="true" ondragstart="drag(event)"></aside>
+<footer>© 2025, Alyssa Cacoulidis
+This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</footer>
+</wrapper>
+</body>
+</html>
